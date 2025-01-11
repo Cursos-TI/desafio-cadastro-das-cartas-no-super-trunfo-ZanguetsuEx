@@ -39,6 +39,6 @@ int main () {
     printf("Nome da cidade: %s\n", nome);
     printf("Habitantes: %d\n", populacao);
     printf("Tamanho da Cidade: %f\n", area);
-    printf("TPIB: %lf\n", PIB);
+    printf("PIB: %lf\n", PIB);
 
 }
