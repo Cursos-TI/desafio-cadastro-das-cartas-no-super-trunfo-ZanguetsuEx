@@ -23,6 +23,7 @@ int main () {
     float area;
     double PIB;
     char nome[20];
+    float resultado;
 
     printf("Digite a quantidade de habitantes:");
     scanf("%d", &populacao);
