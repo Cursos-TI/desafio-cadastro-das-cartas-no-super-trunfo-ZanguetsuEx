@@ -41,4 +41,10 @@ int main () {
     printf("Tamanho da Cidade: %f\n", area);
     printf("PIB: %lf\n", PIB);
 
+    resultado = (float) populacao / area;
+    printf("Densidade Populacional: %.1f habitantes por km²\n", resultado);
+
+    resultado = (float) PIB / populacao;
+    printf("PIB per Capita: %.1f", resultado);
+
 }
